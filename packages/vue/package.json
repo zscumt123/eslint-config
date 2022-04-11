@@ -16,6 +16,7 @@
     "eslint-plugin-vue": "^8.6.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
