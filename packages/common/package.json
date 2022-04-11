@@ -1,0 +1,29 @@
+{
+  "name": "@zs/eslint-config-common",
+  "version": "0.0.1",
+  "description": "eslint common config for zs",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zs",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "@zs/eslint-config-style": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

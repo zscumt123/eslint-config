@@ -1,0 +1,24 @@
+{
+  "name": "@zs/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zs",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "@zs/eslint-config-common": "workspace:*",
+    "@zs/eslint-config-style": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

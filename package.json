@@ -1,19 +1,22 @@
 {
-  "name": "vite_demo",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@zs/eslint-config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "my eslint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite"
   },
-  "author": "",
+  "author": "zs",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^2.9.1"
-  },
-  "dependencies": {
-    "@types/lodash": "^4.14.181",
-    "lodash": "^4.17.21"
+    "@types/node": "^17.0.23",
+    "@zs/eslint-config-common": "workspace:*",
+    "@zs/eslint-config-ts": "workspace:*",
+    "@zs/eslint-config-vue": "workspace:*",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3",
+    "vue": "^3.2.31"
   }
 }
