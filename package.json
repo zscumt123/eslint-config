@@ -5,8 +5,7 @@
   "description": "my eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "release": "pnpm -r publish --access public"
   },
   "author": "zs",
   "license": "ISC",
