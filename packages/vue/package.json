@@ -1,5 +1,5 @@
 {
-  "name": "@zs/eslint-config-vue",
+  "name": "@efficient/eslint-config-vue",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@zs/eslint-config-ts": "workspace:*",
+    "@efficient/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^8.6.0"
   },
   "publishConfig": {

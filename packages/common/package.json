@@ -1,5 +1,5 @@
 {
-  "name": "@zs/eslint-config-common",
+  "name": "@efficient/eslint-config-common",
   "version": "0.0.1",
   "description": "eslint common config for zs",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2",
-    "@zs/eslint-config-style": "workspace:*"
+    "@efficient/eslint-config-style": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.13.0"

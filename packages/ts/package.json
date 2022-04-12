@@ -1,5 +1,5 @@
 {
-  "name": "@zs/eslint-config-ts",
+  "name": "@efficient/eslint-config-ts",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -15,8 +15,8 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
-    "@zs/eslint-config-common": "workspace:*",
-    "@zs/eslint-config-style": "workspace:*"
+    "@efficient/eslint-config-common": "workspace:*",
+    "@efficient/eslint-config-style": "workspace:*"
   },
   "publishConfig": {
     "access": "public",

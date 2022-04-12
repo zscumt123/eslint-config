@@ -13,7 +13,7 @@ module.exports = {
       }
     }
   ],
-  extends: ['plugin:vue/vue3-recommended', '@zs/eslint-config-ts'],
+  extends: ['plugin:vue/vue3-recommended', '@efficient/eslint-config-ts'],
   rules: {
     'vue/multi-word-component-names': 'off'
   }

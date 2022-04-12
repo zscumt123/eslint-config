@@ -4,31 +4,31 @@ importers:
 
   .:
     specifiers:
+      '@efficient/eslint-config-common': workspace:*
+      '@efficient/eslint-config-ts': workspace:*
+      '@efficient/eslint-config-vue': workspace:*
       '@types/node': ^17.0.23
-      '@zs/eslint-config-common': workspace:*
-      '@zs/eslint-config-ts': workspace:*
-      '@zs/eslint-config-vue': workspace:*
       eslint: ^8.13.0
       typescript: ^4.6.3
       vue: ^3.2.31
     devDependencies:
+      '@efficient/eslint-config-common': link:packages/common
+      '@efficient/eslint-config-ts': link:packages/ts
+      '@efficient/eslint-config-vue': link:packages/vue
       '@types/node': 17.0.23
-      '@zs/eslint-config-common': link:packages/common
-      '@zs/eslint-config-ts': link:packages/ts
-      '@zs/eslint-config-vue': link:packages/vue
       eslint: 8.13.0
       typescript: 4.6.3
       vue: 3.2.31
 
   packages/common:
     specifiers:
-      '@zs/eslint-config-style': workspace:*
+      '@efficient/eslint-config-style': workspace:*
       eslint: ^8.13.0
       eslint-config-prettier: ^8.5.0
       eslint-plugin-prettier: ^4.0.0
       prettier: ^2.6.2
     dependencies:
-      '@zs/eslint-config-style': link:../style
+      '@efficient/eslint-config-style': link:../style
       eslint-config-prettier: 8.5.0_eslint@8.13.0
       eslint-plugin-prettier: 4.0.0_1815ac95b7fb26c13c7d48a8eef62d0f
       prettier: 2.6.2
@@ -47,22 +47,22 @@ importers:
 
   packages/ts:
     specifiers:
+      '@efficient/eslint-config-common': workspace:*
+      '@efficient/eslint-config-style': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.18.0
       '@typescript-eslint/parser': ^5.18.0
-      '@zs/eslint-config-common': workspace:*
-      '@zs/eslint-config-style': workspace:*
     dependencies:
+      '@efficient/eslint-config-common': link:../common
+      '@efficient/eslint-config-style': link:../style
       '@typescript-eslint/eslint-plugin': 5.18.0_0dd9be2ba5ed9805045f3fec8be848f5
       '@typescript-eslint/parser': 5.18.0_eslint@8.13.0+typescript@4.6.3
-      '@zs/eslint-config-common': link:../common
-      '@zs/eslint-config-style': link:../style
 
   packages/vue:
     specifiers:
-      '@zs/eslint-config-ts': workspace:*
+      '@efficient/eslint-config-ts': workspace:*
       eslint-plugin-vue: ^8.6.0
     dependencies:
-      '@zs/eslint-config-ts': link:../ts
+      '@efficient/eslint-config-ts': link:../ts
       eslint-plugin-vue: 8.6.0_eslint@8.13.0
 
 packages:

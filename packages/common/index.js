@@ -15,7 +15,7 @@ module.exports = {
       jsx: true
     }
   },
-  extends: ['eslint:recommended', '@zs/eslint-config-style'],
+  extends: ['eslint:recommended', '@efficient/eslint-config-style'],
   settings: {},
   ignorePatterns: [
     '*.min.*',

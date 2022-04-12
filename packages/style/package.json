@@ -1,5 +1,5 @@
 {
-  "name": "@zs/eslint-config-style",
+  "name": "@efficient/eslint-config-style",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zs",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
